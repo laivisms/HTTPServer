@@ -1,9 +1,14 @@
 # HTTPServer A readme is included in each class, but to summarize them:
-
+                
+                
+                Start server by running Server.java.
+                
                 the main server waits for a connection on a socket. When a client connects, the server sends the new socket to a runnable
                 to be executed in a thread. The thread then parses the message (using antlr), then calls the correct handler for 
-                 that header, maps the target to the resource, accesses the target in the computers disk (or cache), writes the correct response
-                into the socket, then closes the socket. 
+                 that header, maps the target to the resource, accesses the target in the computers disk (or cache), writes the correct 
+                 response into the socket, then closes the socket. 
+                
+                
                 
                 included is a JUNIT test file with 5 JUNIT tests
                 
