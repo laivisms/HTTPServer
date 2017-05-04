@@ -1,0 +1,6 @@
+POST /putTest HTTP/1.1
+Host: 127.0.0.1:2017
+Content-Type: text/html
+Accept-Language: en-US
+
+\n this has been appended by a post
